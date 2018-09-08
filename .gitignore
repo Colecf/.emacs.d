@@ -1,0 +1,10 @@
+/auto-save-list
+/.emacs.desktop
+/elpa
+/elpa-*
+/.session
+/session.*
+*.elc
+*~
+\#*
+.DS_Store
