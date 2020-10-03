@@ -26,6 +26,9 @@
   :ensure t
   :config (cmake-ide-setup))
 
+(use-package nix-mode
+  :mode "\\.nix\\'"
+  :load-path "~/.emacs.d/nix-mode/")
 
 (setq-default indent-tabs-mode nil)
 ;Disable backup (file~)
